@@ -1,0 +1,22 @@
+uuid: 5b47a16a-71be-4009-b21a-04b520563d13
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rome
+_core:
+  default_config_hash: ax6f7cCtbHojNDx-uzcFp0Kc-NBWHmAT6fKEQoTV2aQ
+id: rome_breadcrumbs
+theme: rome
+region: header
+weight: -100
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

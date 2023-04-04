@@ -1,0 +1,92 @@
+uuid: 068d1fe4-0dbb-4ed4-bc76-963576a31cfa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.carousel_item.body
+    - field.field.node.carousel_item.field_carousel_image
+    - node.type.carousel_item
+  module:
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          22f532b3-2ba1-4f4b-8534-4b54d7e71f3d:
+            uuid: 22f532b3-2ba1-4f4b-8534-4b54d7e71f3d
+            region: content
+            configuration:
+              id: 'extra_field_block:node:carousel_item:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 0
+            additional: {  }
+          00d866d1-048a-4a92-bbf5-b494365787f7:
+            uuid: 00d866d1-048a-4a92-bbf5-b494365787f7
+            region: content
+            configuration:
+              id: 'field_block:node:carousel_item:field_carousel_image'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_entity_view
+                label: above
+                settings:
+                  view_mode: default
+                  link: false
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          99ecdbb5-bafd-424b-9cf5-a7f76da9c4e0:
+            uuid: 99ecdbb5-bafd-424b-9cf5-a7f76da9c4e0
+            region: content
+            configuration:
+              id: 'field_block:node:carousel_item:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+        third_party_settings: {  }
+id: node.carousel_item.default
+targetEntityType: node
+bundle: carousel_item
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_carousel_image:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

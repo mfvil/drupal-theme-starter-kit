@@ -1,0 +1,23 @@
+uuid: 47433886-19da-41c9-a06a-0f6c3c08ea89
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - rome
+_core:
+  default_config_hash: IFAhcmK6YDgj3tUtDZICwpyqddHutuzdBCGLQUcMilM
+id: rome_search
+theme: rome
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

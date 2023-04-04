@@ -1,0 +1,20 @@
+uuid: 96e9f83f-0bb7-40d5-b506-2817eb68db0f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rome
+_core:
+  default_config_hash: xSaeda3dAEypv-_pCOUbz3TZYG6U4j4ctTGolml7XhU
+id: rome_local_actions
+theme: rome
+region: header
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

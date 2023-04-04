@@ -1,0 +1,17 @@
+uuid: d2f1945c-a5a3-4a38-b29b-804390c0a014
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Carousel Item'
+type: carousel_item
+description: 'Carousel item'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

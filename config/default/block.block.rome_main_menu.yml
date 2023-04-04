@@ -1,0 +1,27 @@
+uuid: 48860548-1c8d-4ae7-9ccf-009eef6c4842
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - rome
+_core:
+  default_config_hash: Ka_XTGUsvgbS7e5B2N7FeE6BSwWPXUlmY8pjRyDdFZA
+id: rome_main_menu
+theme: rome
+region: navigation_collapsible
+weight: 10
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

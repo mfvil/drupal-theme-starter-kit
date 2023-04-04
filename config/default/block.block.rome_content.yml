@@ -1,0 +1,22 @@
+uuid: 7e624728-6624-427f-b799-4a3096fa9181
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rome
+_core:
+  default_config_hash: jx-ZjPkAUb-7G1jhYoDuB1E7O-61NgcbTkKnq1FVt_Y
+id: rome_content
+theme: rome
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 60b69092-3430-48b2-b5ca-2647beeac3b7
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - rome
+_core:
+  default_config_hash: aME0ljS6gK3er5c0jZfQCaz-8VMXoYtyhSuTIJMi56c
+id: rome_help
+theme: rome
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

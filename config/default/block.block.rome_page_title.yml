@@ -1,0 +1,26 @@
+uuid: fc8b4087-f3a7-4cd2-bfe3-ffa56e00c53d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rome
+_core:
+  default_config_hash: 0C60g_IK80Kkj86AgNKaVuJGmeeDLpI3K4UpYlMwqzQ
+id: rome_page_title
+theme: rome
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

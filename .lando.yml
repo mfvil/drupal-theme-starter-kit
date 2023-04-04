@@ -1,0 +1,16 @@
+name: starter-kit
+recipe: drupal10
+config:
+  php: '8.1'
+  webroot: docroot
+  xdebug: false
+services:    
+  appserver:
+    build_as_root:
+      - apt-get update
+      - apt-get install libxss1
+      - curl -sL https://deb.nodesource.com/setup_16.x | bash -
+      - apt install -y nodejs
+      - npm install -g gulp-cli
+      - npm install -g bower
+      - npm install -g yarn

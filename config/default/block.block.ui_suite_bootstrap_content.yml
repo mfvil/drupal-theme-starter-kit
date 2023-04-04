@@ -1,0 +1,22 @@
+uuid: 7e28ab36-cf17-4150-8f24-ba8be6541ce4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ui_suite_bootstrap
+_core:
+  default_config_hash: jx-ZjPkAUb-7G1jhYoDuB1E7O-61NgcbTkKnq1FVt_Y
+id: ui_suite_bootstrap_content
+theme: ui_suite_bootstrap
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

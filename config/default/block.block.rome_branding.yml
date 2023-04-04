@@ -1,0 +1,25 @@
+uuid: 5377518e-e9ae-49be-a5d1-f0063587ab91
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rome
+_core:
+  default_config_hash: w9VwSZGhpE4vD6kczPhZwoIs8egP8D527joljs37Ovc
+id: rome_branding
+theme: rome
+region: navigation
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

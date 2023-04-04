@@ -1,0 +1,22 @@
+uuid: d3aed2f6-c63a-480b-ad4b-8dc01e2df8fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rome
+_core:
+  default_config_hash: mImHiCBVjW8IC0nWsOaRSqY3wd5LymY95uOQSWE4N5U
+id: rome_messages
+theme: rome
+region: header
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: ca045b93-fa90-4b05-b96a-f3dd0daf17d8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rome
+_core:
+  default_config_hash: fORBOaLQ-bCL5nMk3XSfqBMsGoLYy4-NaElwJw6m8Ds
+id: rome_powered
+theme: rome
+region: footer
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

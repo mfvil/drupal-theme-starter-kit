@@ -1,0 +1,22 @@
+uuid: 7d8bf2a8-2863-4bc6-9d29-d93781d76852
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rome
+_core:
+  default_config_hash: HkFInS6iCBeV9QYhtTAE7jSvDcjkvyGOOAfxcZkB5nE
+id: rome_local_tasks
+theme: rome
+region: header
+weight: 10
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }
